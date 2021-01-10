@@ -1,0 +1,93 @@
+__CRASHDB_INIT__
+language: zh_CN
+locale: zh_CN
+
+
+
+========================================
+Startup at Sun Jan 10 01:50:49 2021
+========================================
+
+
+
+seed: 1610214649
+
+double buffering: 1
+sample buffers: 0
+samples: 0 (0)
+swap interval: 1
+video memory: 8192 MB
+
+============================================================
+
+OpenGL version: 3.2.0 NVIDIA 450.102.04
+Renderer (vendor): GeForce RTX 2070 SUPER/PCIe/SSE2 (NVIDIA Corporation)
+Shading language version: 1.50 NVIDIA via Cg compiler
+
+============================================================
+
+opened device OpenAL Soft
+sampling rate: 44100 Hz
+
+Build: Build 29596 Linux 64-bit
+Loading from file /home/ilolipopi/Public/.steam/debian-installation/userdata/886850988/1066780/local/save/crashtest2.sav
+savegame version 296
+active mods:
+  *2318041253/1
+  *2325285511/1
+  *2321924045/1
+  *2308639380/1
+config dict:
+  climate: temperate
+  vehicles: asia
+  nameList: asia
+  environment: temperate
+  difficulty: easy
+mod params:
+script load from /home/ilolipopi/Public/.steam/debian-installation/userdata/886850988/1066780/local/save/crashtest2.sav.lua
+achievements earnable: 0
+init version: 296
+map seed text: 9uFYjT
+adding archive res/models/models.zip
+ModelRep: 3598.29 ms
+No resources are missing!
+Initial material index generation: 232.752 ms
+../../src/Lib/ecs/Engine.h:275: int ecs::Engine::GetComponentDataIndex(const ecs::Entity&, int) const: Assertion `it != components.end()' failed.
+Exception type: Fatal error
+
+Details:
+
+Error message: Assertion `it != components.end()' failed.
+
+Minidump: /home/ilolipopi/Public/.steam/debian-installation/userdata/886850988/1066780/local/crash_dump/c85574a9-dac3-4152-eaa316ba-955198ea.dmp
+
+In file: ../../src/Lib/ecs/Engine.h:275
+
+In function: int ecs::Engine::GetComponentDataIndex(const ecs::Entity&, int) const
+
+
+__CRASHDB_CRASH__ AssertException: ../../src/Lib/ecs/Engine.h:275: int ecs::Engine::GetComponentDataIndex(const ecs::Entity&, int) const: Assertion `it != components.end()' failed.
+Exception type: Fatal error
+
+Details:
+
+Error message: Assertion `it != components.end()' failed.
+
+Minidump: /home/ilolipopi/Public/.steam/debian-installation/userdata/886850988/1066780/local/crash_dump/c85574a9-dac3-4152-eaa316ba-955198ea.dmp
+
+In file: ../../src/Lib/ecs/Engine.h:275
+
+In function: int ecs::Engine::GetComponentDataIndex(const ecs::Entity&, int) const
+
+
+
+Goodbye.
+
+
+
+========================================
+Shutdown at Sun Jan 10 01:51:37 2021
+========================================
+
+
+
